@@ -10,7 +10,7 @@ function Footer() {
         <a href="https://github.com/RamakrishnaReddyPalle" target="_blank" rel="noreferrer"><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/p-rama-krishna-reddy-038b30246/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>
-      <p>First made on 19 Jul 2025, hoping to build some insanely crazy stuff💜</p>
+      <p>Made by Ram</p>
     </footer>
   );
 }
