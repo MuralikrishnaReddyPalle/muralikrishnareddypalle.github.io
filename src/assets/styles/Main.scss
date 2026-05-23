@@ -606,6 +606,11 @@
         padding: 26px 18px;
     }
 
+    .content h1 {
+
+        gap: 0.1rem;
+    }
+
     .content h1 .line-one {
 
         font-size: 2rem;
@@ -614,6 +619,14 @@
     .content h1 .line-two {
 
         font-size: 2rem;
+
+        letter-spacing: -1px;
+
+        line-height: 0.92;
+
+        white-space: nowrap;
+
+        word-break: keep-all;
     }
 
     .content h1 .line-three {
