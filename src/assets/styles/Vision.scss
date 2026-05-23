@@ -1,0 +1,349 @@
+.vision-section {
+
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 140px 0;
+
+    background: transparent;
+
+    z-index: 8;
+}
+
+/* ========================================= */
+/* ENVIRONMENTAL LIGHT */
+/* ========================================= */
+
+.vision-section::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 700px;
+    height: 700px;
+
+    top: -220px;
+    right: -250px;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(212,175,55,0.10),
+            transparent 70%
+        );
+
+    pointer-events: none;
+
+    z-index: 1;
+}
+
+/* ========================================= */
+/* MAIN CONTAINER */
+/* ========================================= */
+
+.vision-container {
+
+    position: relative;
+
+    z-index: 10;
+
+    padding: 0 10%;
+}
+
+/* ========================================= */
+/* HERO TOP */
+/* ========================================= */
+
+.vision-top {
+
+    text-align: center;
+
+    margin-bottom: 90px;
+}
+
+.vision-tag {
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 18px;
+
+    border-radius: 999px;
+
+    background:
+        rgba(212,175,55,0.08);
+
+    border:
+        1px solid rgba(212,175,55,0.30);
+
+    color: #c59d22 !important;
+
+    font-size: 0.82rem !important;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 24px !important;
+
+    backdrop-filter: blur(10px);
+}
+
+.vision-top h1 {
+
+    font-size: clamp(2.8rem, 5vw, 5rem);
+
+    line-height: 1;
+
+    margin-bottom: 28px;
+
+    color: #07111f;
+
+    font-weight: 900;
+
+    letter-spacing: -3px;
+}
+
+.vision-description {
+
+    max-width: 950px;
+
+    margin: auto;
+
+    line-height: 1.9;
+
+    font-size: 1.06rem !important;
+
+    color: #68707c !important;
+}
+
+/* ========================================= */
+/* GRID */
+/* ========================================= */
+
+.vision-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+}
+
+/* ========================================= */
+/* GLASS CARDS */
+/* ========================================= */
+
+.vision-card {
+
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 40px 34px;
+
+    border-radius: 32px;
+
+    background:
+        linear-gradient(
+            to bottom right,
+            rgba(255,255,255,0.72),
+            rgba(255,255,255,0.52)
+        );
+
+    backdrop-filter: blur(20px);
+
+    border:
+        1px solid rgba(255,255,255,0.38);
+
+    box-shadow:
+        0 16px 50px rgba(0,0,0,0.05);
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border 0.35s ease;
+}
+
+.vision-card:hover {
+
+    transform:
+        translateY(-8px);
+
+    border:
+        1px solid rgba(212,175,55,0.24);
+
+    box-shadow:
+        0 24px 60px rgba(0,0,0,0.08);
+}
+
+/* ========================================= */
+/* CARD LIGHT */
+/* ========================================= */
+
+.vision-card::before {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(212,175,55,0.05),
+            transparent 50%
+        );
+
+    pointer-events: none;
+}
+
+/* ========================================= */
+/* ICON */
+/* ========================================= */
+
+.vision-icon {
+
+    width: 72px;
+    height: 72px;
+
+    border-radius: 22px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background:
+        rgba(212,175,55,0.10);
+
+    margin-bottom: 24px;
+
+    backdrop-filter: blur(8px);
+}
+
+.vision-icon svg {
+
+    font-size: 2rem;
+
+    color: #d4af37;
+}
+
+/* ========================================= */
+/* TEXT */
+/* ========================================= */
+
+.vision-card h3 {
+
+    font-size: 1.7rem;
+
+    margin-bottom: 16px;
+
+    color: #07111f;
+
+    font-weight: 800;
+}
+
+.vision-card p {
+
+    line-height: 1.9;
+
+    color: #68707c !important;
+
+    font-size: 1rem !important;
+}
+
+/* ========================================= */
+/* DARK MODE */
+/* ========================================= */
+
+.dark-mode {
+
+    .vision-top h1 {
+
+        color: white;
+    }
+
+    .vision-description,
+    .vision-card p {
+
+        color:
+            rgba(255,255,255,0.72) !important;
+    }
+
+    .vision-card {
+
+        background:
+            linear-gradient(
+                to bottom right,
+                rgba(17,22,30,0.74),
+                rgba(17,22,30,0.52)
+            );
+
+        border:
+            1px solid rgba(255,255,255,0.08);
+
+        box-shadow:
+            0 14px 40px rgba(0,0,0,0.35);
+    }
+
+    .vision-card h3 {
+
+        color: white;
+    }
+
+    .vision-icon {
+
+        background:
+            rgba(212,175,55,0.14);
+    }
+}
+
+/* ========================================= */
+/* TABLET */
+/* ========================================= */
+
+@media screen and (max-width: 992px) {
+
+    .vision-grid {
+
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ========================================= */
+/* MOBILE */
+/* ========================================= */
+
+@media screen and (max-width: 768px) {
+
+    .vision-section {
+
+        padding: 100px 0;
+    }
+
+    .vision-container {
+
+        padding: 0 6%;
+    }
+
+    .vision-top {
+
+        margin-bottom: 60px;
+    }
+
+    .vision-top h1 {
+
+        letter-spacing: -2px;
+    }
+
+    .vision-card {
+
+        padding: 32px 26px;
+    }
+}

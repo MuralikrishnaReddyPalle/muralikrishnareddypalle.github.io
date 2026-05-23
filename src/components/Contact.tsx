@@ -1,114 +1,187 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
+
+import InstagramIcon from '@mui/icons-material/Instagram';
+import GroupsIcon from '@mui/icons-material/Groups';
+import CampaignIcon from '@mui/icons-material/Campaign';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import RateReviewIcon from '@mui/icons-material/RateReview';
+
 import '../assets/styles/Contact.scss';
-// import emailjs from '@emailjs/browser';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import SendIcon from '@mui/icons-material/Send';
-import TextField from '@mui/material/TextField';
 
 function Contact() {
 
-  const [name, setName] = useState<string>('');
-  const [email, setEmail] = useState<string>('');
-  const [message, setMessage] = useState<string>('');
-
-  const [nameError, setNameError] = useState<boolean>(false);
-  const [emailError, setEmailError] = useState<boolean>(false);
-  const [messageError, setMessageError] = useState<boolean>(false);
-
-  const form = useRef();
-
-  const sendEmail = (e: any) => {
-    e.preventDefault();
-
-    setNameError(name === '');
-    setEmailError(email === '');
-    setMessageError(message === '');
-
-    /* Uncomment below if you want to enable the emailJS */
-
-    // if (name !== '' && email !== '' && message !== '') {
-    //   var templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message: message
-    //   };
-
-    //   console.log(templateParams);
-    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-    //     (response) => {
-    //       console.log('SUCCESS!', response.status, response.text);
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //     },
-    //   );
-    //   setName('');
-    //   setEmail('');
-    //   setMessage('');
-    // }
-  };
-
   return (
-    <div id="contact">
-      <div className="items-container">
-        <div className="contact_wrapper">
-          <h1>Contact Me</h1>
-          <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
-          <Box
-            ref={form}
-            component="form"
-            noValidate
-            autoComplete="off"
-            className='contact-form'
-          >
-            <div className='form-flex'>
-              <TextField
-                required
-                id="outlined-required"
-                label="Your Name"
-                placeholder="What's your name?"
-                value={name}
-                onChange={(e) => {
-                  setName(e.target.value);
-                }}
-                error={nameError}
-                helperText={nameError ? "Please enter your name" : ""}
-              />
-              <TextField
-                required
-                id="outlined-required"
-                label="Email / Phone"
-                placeholder="How can I reach you?"
-                value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
-                error={emailError}
-                helperText={emailError ? "Please enter your email or phone number" : ""}
-              />
-            </div>
-            <TextField
-              required
-              id="outlined-multiline-static"
-              label="Message"
-              placeholder="Send me any inquiries or questions"
-              multiline
-              rows={10}
-              className="body-form"
-              value={message}
-              onChange={(e) => {
-                setMessage(e.target.value);
-              }}
-              error={messageError}
-              helperText={messageError ? "Please enter the message" : ""}
-            />
-            <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
-              Send
-            </Button>
-          </Box>
+
+    <div
+      className="contact-section"
+      id="contact"
+    >
+
+      <div className="contact-container">
+
+        {/* ========================================= */}
+        {/* HEADER */}
+        {/* ========================================= */}
+
+        <div className="contact-top">
+
+          <p className="contact-tag">
+            CONNECT WITH THE CAMPAIGN
+          </p>
+
+          <h1>
+            Together Towards <br />
+            A Greater OSMECON
+          </h1>
+
+          <p className="contact-description">
+
+            Leadership is not built by one individual alone —
+            it is built through teamwork, inclusiveness,
+            responsibility, and collective effort.
+            Let us work together towards an OSMECON 2026
+            that reflects professionalism, growth, innovation,
+            and unity.
+
+          </p>
+
         </div>
+
+        {/* ========================================= */}
+        {/* CARDS */}
+        {/* ========================================= */}
+
+        <div className="contact-grid">
+
+          <div className="contact-card">
+
+            <CampaignIcon />
+
+            <h3>
+              Leadership
+            </h3>
+
+            <p>
+              Focused on organizational coordination,
+              teamwork, professionalism,
+              and responsible leadership.
+            </p>
+
+          </div>
+
+          <div className="contact-card">
+
+            <GroupsIcon />
+
+            <h3>
+              Inclusiveness
+            </h3>
+
+            <p>
+              Building an environment where every member
+              feels valued, heard,
+              and motivated to contribute.
+            </p>
+
+          </div>
+
+          <div className="contact-card">
+
+            <InstagramIcon />
+
+            <h3>
+              Outreach
+            </h3>
+
+            <p>
+              Strengthening student engagement,
+              visibility, collaboration,
+              and communication.
+            </p>
+
+          </div>
+
+        </div>
+
+        {/* ========================================= */}
+        {/* CTA */}
+        {/* ========================================= */}
+
+        <div className="campaign-cta">
+
+          <div className="cta-content">
+
+            <h2>
+              #VoteForMurali
+            </h2>
+
+            <p>
+              Leadership. Dedication. Vision.
+            </p>
+
+          </div>
+
+          <div
+            style={{
+              display: 'flex',
+              gap: '14px',
+              flexWrap: 'wrap'
+            }}
+          >
+
+            {/* EMAIL */}
+
+            <a
+              href="mailto:muralikrishnareddy.palle@gmail.com"
+              className="cta-button"
+            >
+              Connect
+              <ArrowForwardIcon />
+            </a>
+
+            {/* GOOGLE FORM */}
+
+            <a
+              href="https://forms.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta-button"
+            >
+              Suggestions
+              <RateReviewIcon />
+            </a>
+
+          </div>
+
+        </div>
+
+        {/* ========================================= */}
+        {/* SOCIAL */}
+        {/* ========================================= */}
+
+        <div className="social-strip">
+
+          <a
+            href="https://www.instagram.com/_reddy.mk_021?igsh=MXRoeTJlMXI1dTdhZg=="
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <InstagramIcon />
+          </a>
+
+          <a
+            href="mailto:muralikrishnareddy.palle@gmail.com"
+            aria-label="Email"
+          >
+            <MailOutlineIcon />
+          </a>
+
+        </div>
+
       </div>
+
     </div>
   );
 }
