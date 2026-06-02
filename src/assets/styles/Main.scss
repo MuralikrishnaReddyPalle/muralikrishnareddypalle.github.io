@@ -62,7 +62,7 @@
 
 .candidate-image img {
 
-    height: min(88vh, 980px);
+    height: min(83vh, 930px);
 
     width: auto;
 
@@ -171,14 +171,16 @@
 
 .content h2 {
 
-    margin-top: 8px;
-    margin-bottom: 14px;
+    margin-top: 14px;
+    margin-bottom: 18px;
 
-    font-size: clamp(1rem, 1.2vw, 1.25rem);
+    font-size: clamp(1.8rem, 1.5vw, 1.55rem);
 
-    font-weight: 400;
+    font-weight: 800;
 
-    color: #68707c;
+    letter-spacing: 0px;
+
+    color: #07111f;
 }
 
 /* ========================================= */
@@ -540,6 +542,10 @@
 
         gap: 0;
     }
+    .content h1 {
+
+        letter-spacing: -2px;
+    }
 
     .content h1 .line-one {
 
@@ -620,7 +626,7 @@
 
         font-size: 2rem;
 
-        letter-spacing: -1px;
+        letter-spacing: 0px;
 
         line-height: 0.92;
 

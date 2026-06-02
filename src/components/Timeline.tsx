@@ -19,12 +19,39 @@ import '../assets/styles/Timeline.scss';
 const timelineData = [
 
   {
-    year: "Beginning",
-    title: "Voice of Osmania",
-    subtitle: "Photography Team",
-    icon: <CampaignIcon />,
+    year: "OSMECON",
+    title: "First Year Experience",
+    subtitle: "Workshops, Passive Events & Support Work",
+    icon: <SchoolIcon />,
     description:
-      "First exposure to student organizations, teamwork, coordination, and collaborative event environments."
+      "Worked in Symposium operations, Forensic Workshops, Dare 2 Diagnose, MedQuiz, Public Relations, Technical Coordination, Delegate Handling, and various support activities contributing to the smooth execution of OSMECON."
+  },
+
+  {
+    year: "OSMECON",
+    title: "Second Year Experience",
+    subtitle: "Workshops, Active & Passive Events, Support Work",
+    icon: <SchoolIcon />,
+    description:
+      "Contributed to Body PR Team activities, Symposium operations, Research Methodology Workshop management, and multiple organizational responsibilities involving coordination, logistics, and participant engagement."
+  },
+
+  {
+    year: "Leadership",
+    title: "Third Year OSMECON",
+    subtitle: "Publicity, PR & Workshop Management",
+    icon: <EmojiEventsIcon />,
+    description:
+      "Handled publicity campaigns across 3+ districts and 10+ colleges, influencing participants to attend OSMECON. Worked extensively in PR operations under high-pressure conditions while managing Basic Surgical Skills Workshop operations, Symposium coordination, Delegate Management, and Event Coordination."
+  },
+
+  {
+    year: "TEAM S16",
+    title: "OSMECON 15th Edition",
+    subtitle: "Team S16 • Demanding Crisis Situations",
+    icon: <WorkspacePremiumIcon />,
+    description:
+      "Worked closely in technical coordination, AV handling, operational support, problem-solving, and collaborative execution during demanding crisis situations requiring rapid decisions and coordinated teamwork."
   },
 
   {
@@ -33,7 +60,34 @@ const timelineData = [
     subtitle: "Joint Treasurer & Active Member",
     icon: <GroupsIcon />,
     description:
-      "Led awareness drives, outreach initiatives, public relations activities, and social service programs impacting 1000+ individuals."
+      "Led awareness drives, outreach initiatives, public relations activities, social service programs, while also handling treasury-related responsibilities during the previous tenure."
+  },
+
+  {
+    year: "Riveria 2026",
+    title: "Freshers'26 - RIVERIA",
+    subtitle: "Tech & Content Teams",
+    icon: <GroupsIcon />,
+    description:
+      "Worked in technical pit management, content operations, creative coordination, and live-event execution within dynamic and fast-paced environments."
+  },
+
+  {
+    year: "Exposure",
+    title: "National Conferences",
+    subtitle: "Departmental Conferences",
+    icon: <CampaignIcon />,
+    description:
+      "Gained exposure to conference logistics, organizational execution, public relations systems, networking opportunities, and professional event management through participation in conferences including JIPMER, IISc, ESIC, and others."
+  },
+
+  {
+    year: "OMC CARES",
+    title: "White Coat Summer Camp",
+    subtitle: "For Medical Aspiring Students",
+    icon: <Diversity3Icon />,
+    description:
+      "Managed student coordination, technical execution, participant engagement, event operations, and organizational support for medical aspiring students exploring careers in healthcare."
   },
 
   {
@@ -42,70 +96,16 @@ const timelineData = [
     subtitle: "Inter-District Leadership Platforms",
     icon: <WorkspacePremiumIcon />,
     description:
-      "Represented the club across district exchange platforms while building communication, networking, and leadership skills."
+      "Represented the club across district exchange platforms while building communication, networking, leadership, and organizational skills through interactions with diverse teams and institutions."
   },
 
   {
-    year: "OSMECON",
-    title: "First Year Experience",
-    subtitle: "Workshops & Technical Teams",
-    icon: <SchoolIcon />,
-    description:
-      "Worked in symposium management, forensic workshops, delegate handling, technical coordination, and PR activities."
-  },
-
-  {
-    year: "OSMECON",
-    title: "Second Year Experience",
-    subtitle: "Research Methodology Workshop",
-    icon: <SchoolIcon />,
-    description:
-      "Coordinated technical execution, workshop management, symposium operations, and collaborative organizational activities."
-  },
-
-  {
-    year: "Leadership",
-    title: "Third Year OSMECON",
-    subtitle: "Publicity, Coordination & Operations",
-    icon: <EmojiEventsIcon />,
-    description:
-      "Handled publicity campaigns across districts, delegate management, workshop operations, and high-pressure coordination responsibilities."
-  },
-
-  {
-    year: "TEAM S16",
-    title: "OSMECON 15th Edition",
-    subtitle: "Symposium Finalists",
-    icon: <WorkspacePremiumIcon />,
-    description:
-      "Worked closely in technical coordination, AV handling, operational support, and collaborative execution during demanding situations."
-  },
-
-  {
-    year: "OMC CARES",
-    title: "White Coat Summer Camp",
-    subtitle: "Event Management & Technical Team",
-    icon: <Diversity3Icon />,
-    description:
-      "Managed student coordination, technical execution, delegate handling, and event operations for aspiring medical students."
-  },
-
-  {
-    year: "Exposure",
-    title: "National Conferences",
-    subtitle: "JIPMER, IISc, ESIC & More",
+    year: "Beginning",
+    title: "Voice of Osmania",
+    subtitle: "Photography Team",
     icon: <CampaignIcon />,
     description:
-      "Gained exposure to conference logistics, PR systems, organizational execution, and national-level event management."
-  },
-
-  {
-    year: "Riveria 2026",
-    title: "Tech & Content Teams",
-    subtitle: "Live Event Operations",
-    icon: <GroupsIcon />,
-    description:
-      "Worked in technical pit management, content operations, and live-event coordination under dynamic environments."
+      "First exposure to student organizations, teamwork, media coverage, photography operations, coordination, and collaborative event environments."
   }
 ];
 

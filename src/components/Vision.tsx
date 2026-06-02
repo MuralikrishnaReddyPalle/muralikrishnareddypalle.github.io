@@ -4,6 +4,8 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import Diversity3Icon from '@mui/icons-material/Diversity3';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
+import TrendingUpIcon from '@mui/icons-material/TrendingUp';
+import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
 
 import '../assets/styles/Vision.scss';
 
@@ -28,7 +30,7 @@ function Vision() {
 
           <p className="vision-description">
 
-            OSMECON 2026 should not just be an event —
+            OSMECON 2026 should not just be an event,
             it should become an experience that reflects
             professionalism, inclusiveness, innovation,
             teamwork, and strong organizational coordination.
@@ -42,6 +44,53 @@ function Vision() {
         </div>
 
         <div className="vision-grid">
+          <div className="vision-card">
+            <div className="vision-icon">
+              <TrendingUpIcon />
+            </div>
+
+            <h3>
+              Record Number of Delegates
+            </h3>
+
+            <p>
+
+              Working towards achieving the
+              highest delegate participation in
+              OSMECON history by expanding
+              outreach, strengthening engagement,
+              and building stronger institutional
+              connections across the country.
+
+            </p>
+
+          </div>
+
+          <div className="vision-card">
+
+            <div className="vision-icon">
+              <MilitaryTechIcon />
+            </div>
+
+            <h3>
+              National-Level Recognition
+            </h3>
+
+            <p>
+
+              Aspiring to elevate OSMECON to the
+              standards of premier conferences
+              conducted by institutions such as
+              AFMC and JIPMER. As one of India's
+              most historic and prestigious medical
+              colleges, Osmania possesses the
+              potential to compete with and exceed
+              the very best through collective effort
+              and dedicated leadership.
+
+            </p>
+
+          </div>
 
           <div className="vision-card">
 

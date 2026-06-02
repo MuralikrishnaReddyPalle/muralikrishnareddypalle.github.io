@@ -92,7 +92,7 @@ function Main() {
         </h1>
 
           <h2>
-            Candidate for Organising Secretary
+            Candidate for ORGANISING SECRETARY
           </h2>
 
           <div className="campaign-badge">

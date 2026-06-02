@@ -12,6 +12,13 @@ import {
 
 import Vision from "./components/Vision";
 
+/*
+  ADD LATER
+*/
+import Goals from "./components/Goals";
+import Posters from "./components/Posters";
+
+
 import FadeIn from './components/FadeIn';
 
 import Lenis from 'lenis';
@@ -87,17 +94,9 @@ function App() {
         }`}
       >
 
-        {/* ========================================= */}
-        {/* GLOBAL CINEMATIC BACKGROUND */}
-        {/* ========================================= */}
-
         <div className="global-background-layer" />
 
         <div className="global-overlay-layer" />
-
-        {/* ========================================= */}
-        {/* WEBSITE CONTENT */}
-        {/* ========================================= */}
 
         <Navigation
           parentToChild={{ mode }}
@@ -114,7 +113,11 @@ function App() {
 
             <Timeline />
 
+            <Goals />
+
             <Project />
+
+            <Posters />
 
             <Contact />
 

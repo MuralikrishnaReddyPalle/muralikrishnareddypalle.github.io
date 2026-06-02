@@ -6,6 +6,9 @@ import CampaignIcon from '@mui/icons-material/Campaign';
 import CrisisAlertIcon from '@mui/icons-material/CrisisAlert';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import HandshakeIcon from '@mui/icons-material/Handshake';
+import PsychologyIcon from '@mui/icons-material/Psychology';
+import FactCheckIcon from '@mui/icons-material/FactCheck';
+import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 
 import '../assets/styles/Expertise.scss';
 
@@ -50,6 +53,27 @@ const leadershipCards = [
     title: "People First Approach",
     description:
       "Building stronger teams through communication, respect, adaptability, and openness to continuous improvement."
+  },
+
+  {
+    icon: <PsychologyIcon />,
+    title: "Problem Solving & Conflict Resolution",
+    description:
+      "Focused on identifying challenges, resolving conflicts constructively, and finding practical solutions while maintaining team harmony and organizational efficiency."
+  },
+
+  {
+    icon: <FactCheckIcon />,
+    title: "Attention to Detail",
+    description:
+      "Belief that successful events are built through careful planning, thorough execution, and close attention to every operational, technical, and organizational detail."
+  },
+
+  {
+    icon: <TrendingUpIcon />,
+    title: "Continuous Improvement",
+    description:
+      "Open to feedback, self-evaluation, and learning from every experience to constantly improve leadership, teamwork, and organizational outcomes."
   }
 ];
 
@@ -71,7 +95,7 @@ function Expertise() {
           </h1>
 
           <p className="section-description">
-            Organising OSMECON is not just about managing an event —
+            Organising OSMECON is not just about managing an event,
             it is about bringing people together, creating strong teams,
             handling responsibilities professionally, and building an
             environment where everyone feels motivated and valued.

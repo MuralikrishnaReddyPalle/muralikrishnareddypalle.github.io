@@ -6,6 +6,7 @@ import CampaignIcon from '@mui/icons-material/Campaign';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import RateReviewIcon from '@mui/icons-material/RateReview';
+import PhoneIcon from '@mui/icons-material/Phone';
 
 import '../assets/styles/Contact.scss';
 
@@ -31,13 +32,13 @@ function Contact() {
           </p>
 
           <h1>
-            Together Towards <br />
-            A Greater OSMECON
+            Together, Let Us <br />
+            Redefine OSMECON
           </h1>
 
           <p className="contact-description">
 
-            Leadership is not built by one individual alone —
+            Leadership is not built by one individual alone,
             it is built through teamwork, inclusiveness,
             responsibility, and collective effort.
             Let us work together towards an OSMECON 2026
@@ -48,61 +49,6 @@ function Contact() {
 
         </div>
 
-        {/* ========================================= */}
-        {/* CARDS */}
-        {/* ========================================= */}
-
-        <div className="contact-grid">
-
-          <div className="contact-card">
-
-            <CampaignIcon />
-
-            <h3>
-              Leadership
-            </h3>
-
-            <p>
-              Focused on organizational coordination,
-              teamwork, professionalism,
-              and responsible leadership.
-            </p>
-
-          </div>
-
-          <div className="contact-card">
-
-            <GroupsIcon />
-
-            <h3>
-              Inclusiveness
-            </h3>
-
-            <p>
-              Building an environment where every member
-              feels valued, heard,
-              and motivated to contribute.
-            </p>
-
-          </div>
-
-          <div className="contact-card">
-
-            <InstagramIcon />
-
-            <h3>
-              Outreach
-            </h3>
-
-            <p>
-              Strengthening student engagement,
-              visibility, collaboration,
-              and communication.
-            </p>
-
-          </div>
-
-        </div>
 
         {/* ========================================= */}
         {/* CTA */}
@@ -167,6 +113,7 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
+            title="Instagram"
           >
             <InstagramIcon />
           </a>
@@ -174,8 +121,17 @@ function Contact() {
           <a
             href="mailto:muralikrishnareddy.palle@gmail.com"
             aria-label="Email"
+            title="Email"
           >
             <MailOutlineIcon />
+          </a>
+
+          <a
+            href="tel:+919347185058"
+            aria-label="Phone"
+            title="+91 9347185058"
+          >
+            <PhoneIcon />
           </a>
 
         </div>

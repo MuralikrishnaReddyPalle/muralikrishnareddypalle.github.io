@@ -27,9 +27,12 @@ const navItems = [
   ['Vision', 'vision'],
   ['Leadership', 'expertise'],
   ['Journey', 'history'],
+  ['Goals', 'goals'],
   ['Gallery', 'projects'],
+  ['Posters', 'posters'],
   ['Connect', 'contact']
 ];
+
 
 function Navigation({ parentToChild, modeChange }: any) {
 
