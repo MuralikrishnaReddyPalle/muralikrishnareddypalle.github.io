@@ -109,9 +109,9 @@ function App() {
 
             <Vision />
 
-            <Expertise />
-
             <Timeline />
+
+            <Expertise />
 
             <Goals />
 
