@@ -100,6 +100,18 @@ const timelineData = [
   },
 
   {
+    title: "Freshers' Orientation & Mentorship",
+    subtitle: "Student Guidance Initiative",
+    description:
+      "Contributed to orientation and mentorship activities designed to support incoming MBBS students. Assisted freshers in understanding academic expectations, navigating medical college life, participating in extracurricular opportunities, and developing a smooth transition into the profession of medicine.",
+    date: "2023 - Present",
+    icon: <GroupsIcon />,
+    iconStyle: {
+      background: "#d4af37",
+      color: "#fff",
+    },
+  },
+  {
     year: "Beginning",
     title: "Voice of Osmania",
     subtitle: "Photography Team",

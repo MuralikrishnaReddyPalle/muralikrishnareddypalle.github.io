@@ -6,6 +6,8 @@ import mock03 from '../assets/images/mock03.png';
 import mock04 from '../assets/images/mock04.png';
 import mock05 from '../assets/images/mock05.png';
 import mock06 from '../assets/images/mock06.png';
+import mock07 from '../assets/images/mock07.png';
+import mock08 from '../assets/images/mock08.png';
 
 import '../assets/styles/Project.scss';
 
@@ -13,53 +15,68 @@ const galleryItems = [
 
   {
     image: mock01,
-    title: "Leadership & Coordination",
-    subtitle: "OSMECON Operations",
+    title: "CPR & Life Support Awareness",
+    subtitle: "IIT Hyderabad",
     description:
-      "Managing teams, delegates, workshops, and technical coordination during high-pressure organizational environments."
+      "Led a CPR and Life Support awareness session at IIT Hyderabad, turning knowledge into action. A lesson in leadership, communication, and staying calm under pressure."
   },
 
   {
     image: mock02,
-    title: "Public Outreach",
-    subtitle: "10+ Colleges Reached",
+    title: "Behind the Scenes of OSMECON",
+    subtitle: "OSMECON Volunteer",
     description:
-      "Conducted publicity and outreach campaigns across multiple medical colleges and districts for OSMECON."
+      "Worked behind the curtains of OSMECON and discovered what truly makes great events successful. Planning, precision, teamwork, and the courage to solve problems before they arise."
   },
 
   {
     image: mock03,
-    title: "Community Impact",
-    subtitle: "1000+ Individuals",
+    title: "Medical Symposium 2025",
+    subtitle: "Teamwork & Execution",
     description:
-      "Awareness drives, public engagement programs, vaccination initiatives, and educational outreach activities."
+      "Sleepless nights, relentless teamwork, and a shared vision helped our team finish among the best. Proof that dedication, coordination, and collective effort can turn challenges into achievements."
   },
 
   {
     image: mock04,
-    title: "Team Leadership",
-    subtitle: "Rotaract & OSMECON",
+    title: "Body Dysmorphia Awareness",
+    subtitle: "Community Engagement",
     description:
-      "Experience in PR, teamwork, coordination, logistics, treasury responsibilities, and collaborative execution."
+      "Listened, guided, and supported young minds through conversations that truly mattered. Developed empathy, trust, and approachability—the qualities that help leaders connect with people, not just manage projects."
   },
 
   {
     image: mock05,
-    title: "Conference Exposure",
-    subtitle: "National-Level Experience",
+    title: "IDYE & MDYE",
+    subtitle: "Learning Beyond Boundaries",
     description:
-      "Exposure to conference systems, delegate management, technical operations, and professional execution models."
+      "Met diverse minds, exchanged ideas, and embraced perspectives beyond my own. Strengthened the communication, adaptability, and networking skills needed to unite people and lead successful teams."
   },
 
   {
     image: mock06,
-    title: "Future Campaign Posters",
-    subtitle: "Coming Soon",
+    title: "Service Through Action",
+    subtitle: "Community Outreach",
     description:
-      "Dedicated section for future campaign posters, event highlights, and visual campaign announcements."
+      "Every act of service began with a simple goal—to make a difference, not seek recognition. Through community outreach, health awareness, and social service initiatives, I learned to organize, collaborate, and lead with empathy, purpose, and action."
+  },
+
+  {
+    image: mock07,
+    title: "Leadership Through Teamwork",
+    subtitle: "College Events & Initiatives",
+    description:
+      "Leading events across my college life showed me that teamwork can achieve extraordinary things. I value approachability, coordination, open communication, and consistency because great teams perform best when every member feels heard, confident, and motivated."
+  },
+
+  {
+    image: mock08,
+    title: "Rotaract in Action",
+    subtitle: "Service Above Self",
+    description:
+      "Every Rotaract activity reinforced the importance of teamwork, responsibility, and community service. Working alongside dedicated volunteers strengthened my ability to coordinate people, execute initiatives effectively, and contribute meaningfully toward a shared goal."
   }
 ];
-
 function Project() {
 
   return (
@@ -75,15 +92,16 @@ function Project() {
           </p>
 
           <h1>
-            Moments, Leadership <br />
-            & Campaign Highlights
+            Moments That Shaped <br />
+            My Leadership Journey
           </h1>
 
           <p className="projects-description">
-            A visual showcase of experiences, leadership moments,
-            outreach initiatives, organizational work, and future
-            campaign highlights throughout the journey towards
-            OSMECON 2026.
+            Every experience teaches something valuable. From conferences,
+            awareness campaigns, mentorship initiatives, community service,
+            and student leadership activities, these moments helped shape
+            the vision, teamwork, communication, and responsibility that I
+            hope to bring to OSMECON 2026.
           </p>
 
         </div>

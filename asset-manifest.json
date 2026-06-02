@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.ade7210e.css",
-    "main.js": "/static/js/main.66eccd5f.js",
+    "main.js": "/static/js/main.c6fb2d3f.js",
     "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
-    "static/media/mock05.png": "/static/media/mock05.d41c9d1d96cea2f4454e.png",
-    "static/media/mock06.png": "/static/media/mock06.8a6be7022be8a2e13fc9.png",
-    "static/media/mock03.png": "/static/media/mock03.fe4e3cfdb36d99d401c6.png",
-    "static/media/mock01.png": "/static/media/mock01.eded770c358e6572eb22.png",
-    "static/media/mock04.png": "/static/media/mock04.cfe09b87179151648d8f.png",
-    "static/media/mock02.png": "/static/media/mock02.27c08b94373f9ad6ddc5.png",
+    "static/media/mock02.png": "/static/media/mock02.b290d4533fcb1ab7654f.png",
+    "static/media/mock01.png": "/static/media/mock01.d35088e52157e8277279.png",
+    "static/media/mock05.png": "/static/media/mock05.0825a7b80b9ccd8df997.png",
+    "static/media/mock07.png": "/static/media/mock07.68f7c2a91765bc1d43a5.png",
+    "static/media/mock08.png": "/static/media/mock08.97f97605f9aaab0dae14.png",
     "static/media/portfolio_dp.png": "/static/media/portfolio_dp.3ce10df0336c1b565b66.png",
+    "static/media/mock03.png": "/static/media/mock03.906d0ac2fe2dcc4d6ef7.png",
+    "static/media/mock04.png": "/static/media/mock04.485e0753612c38dbab63.png",
+    "static/media/mock06.png": "/static/media/mock06.83ac1afa8d33dadb2f80.png",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
     "index.html": "/index.html",
     "main.ade7210e.css.map": "/static/css/main.ade7210e.css.map",
-    "main.66eccd5f.js.map": "/static/js/main.66eccd5f.js.map",
+    "main.c6fb2d3f.js.map": "/static/js/main.c6fb2d3f.js.map",
     "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ade7210e.css",
-    "static/js/main.66eccd5f.js"
+    "static/js/main.c6fb2d3f.js"
   ]
 }
