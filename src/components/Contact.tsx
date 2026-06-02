@@ -63,7 +63,7 @@ function Contact() {
             </h2>
 
             <p>
-              Leadership. Dedication. Vision.
+              Experience, Leadership, Commitment
             </p>
 
           </div>
@@ -89,7 +89,7 @@ function Contact() {
             {/* GOOGLE FORM */}
 
             <a
-              href="https://forms.google.com"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScprqSU6x5aLp2jNJKdKERCRQ6BEgxaqd5A0tebM731U04H_A/viewform?usp=dialog"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-button"
